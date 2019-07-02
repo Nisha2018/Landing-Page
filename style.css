@@ -546,7 +546,8 @@ address{
 	}
 
 	.services p {
-    font-size: 28px;
+    	font-size: 28px;
+    	padding: 20px 0 80px;
 	}
 
 	/* Blogs section */
