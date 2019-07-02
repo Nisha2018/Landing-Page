@@ -68,7 +68,6 @@ nav:after{
 .menu>ul>li{
 	float: left;
 	width: 108px;
-	height: 70px;
 	line-height: 70px;
 	text-align: center;
 	position: relative;
@@ -86,7 +85,7 @@ nav:after{
 
 .menu ul li a{
 	display: inline-block;
-	height: 65px;
+	height: 48px;
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -134,21 +133,13 @@ nav:after{
 	height: 30px;
 }
 
-.dropdown-content>ul>li>a:hover::before{
-	content: "\f061";
-	font-family: "Font Awesome 5 Free";
-	font-weight: 900;
-	color: #e5735c;
-	margin-right: 8px;
-}
-
 .menu>ul>li:hover .dropdown-content{
 	display: block;
 }
 
 .dropdown > a > #angle-down{
 	position: absolute;
-    top: 43%;
+    top: 58%;
     left: 110%;
 }
 
@@ -189,9 +180,8 @@ nav:after{
 
 	.menu{
 	background: #fff;		
-	float: none;
 	width: 100%;
-	padding: 60px;
+	padding: 20px;
 	display: none;
 	position: relative;
     }
@@ -360,7 +350,7 @@ nav:after{
 .btn{
 	display: block;
 	margin: 25px auto;
-	background-color: #ec3d3d;
+	background-color: #e5735c;
 	color: white;
 	border: none;
 	padding: 1em 1.5em;
@@ -372,7 +362,8 @@ nav:after{
 }
 
 .btn:hover{
-	background-color: #8e1a1a;
+	color: #e5735c;
+	background: #fff;
 }
 
 /*Header Ends*/
@@ -462,7 +453,7 @@ nav:after{
 }
 
 footer .content-wrap{
-	padding: 0px 20px 25px;
+	padding: 20px 20px 25px;
 	text-align: center;
 }
 
@@ -484,7 +475,7 @@ footer .content-wrap a:hover{
 footer .content-wrap .title{
 	font-size: 1.2em;
     font-weight: bold;
-    padding: 40px 0px 10px;
+    padding-bottom: 20px;
     color: white;
 }
 
@@ -588,7 +579,7 @@ address{
     /* Footer */
 
     footer .content-wrap {
-    	 padding: 0;
+    	padding: 20px 0px;
     }
 
     footer .content-wrap .title {
@@ -601,7 +592,7 @@ address{
 	}
 
 	.social-icons img {
-    	width: 60px;
+    	width: 30px;
  	}
 	
 	address{
@@ -615,6 +606,14 @@ address{
  /* Desktop View */ 
 
  @media (min-width: 991px){
+
+ 	.dropdown-content>ul>li>a:hover::before{
+		content: "\f061";
+		font-family: "Font Awesome 5 Free";
+		font-weight: 900;
+		color: #e5735c;
+		margin-right: 8px;
+	}
  	.home{
  		width: 100%;
  		display: grid;
@@ -724,7 +723,7 @@ address{
 
     footer .content-wrap .title {
     font-size: 1.2em;
-    padding: 50px 0px 10px 0px;
+    padding-bottom: 10px;
     font-weight: normal;
     }
 
